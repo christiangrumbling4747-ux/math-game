@@ -1,0 +1,97 @@
+body {
+font-family: arial, sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100;
+margin: 0;
+background-color: bisque;
+}
+.game-container {
+    border-radius: 10px;
+    width: 90%;
+    padding: 3;
+    box-shadow: 0 4px 8px;
+    text-align: center;
+    max-width: 500px;
+    background-color: #fff;
+}
+#settings {
+margin-top: 30px;
+}
+.hidden{
+    display: none;
+}
+h1{
+    color: burlywood;
+}
+#game-modes button, #settings button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: burlywood;
+    font-size: 17px;
+    cursor: pointer;
+    color: #fff;
+}
+#game-modes button:hover, #settings button:hover {
+    background-color: burlywood;
+}
+.difficulty-options {
+    margin-bottom: 20px;
+    }
+    #game-area {
+        margin-top: 20px;
+    }
+    #status-display, #question-display, #score-display {
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+    #answer-input {
+        font-size: 17px;
+        width: 80%;
+        margin-bottom: 15px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid white;
+        }
+        #skip-btn {
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            color: white;
+            font-size: 17px;
+            cursor: pointer;
+            margin:  5px;
+            background-color: burlywood;
+    }
+
+#submit-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    margin:  5px;
+    background-color: burlywood;
+}
+#restart-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color:#fff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+#end-game-message {
+    margin-top: 20px;
+}
+#final-score {
+    font-size: 24px;
+    font-style: bold;
+    margin-bottom: 20px;
+}
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Math Game</title>
+    <link rel="stylesheet" href="Gamecss.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Mental Math Game</h1>
+        <div id="game-modes">
+            <button id="max-score-btn">max score (20 Qs)</button>
+            <button id="three-out-btn">three out (3 strikes)</button>
+        </div>
+        <div id="settings" class="hidden">
+            <h3>Select difficulty</h3>
+            <div class="difficulty-options">
+                <button id="easy-btn">easy</button>
+                <button id="medium-btn">medium</button>
+                <button id="hard-btn">hard</button>
+            </div>
+            <button id="start-game-btn" disabled>start game</button>
+        </div>
+        <div id="game-area" class="hidden">
+            <div id="status-display"></div>
+            <div id="question-display"></div>
+            <input type="text" id="answer-input" placeholder="type your answer" autofocus>
+            <button id="submit-btn">submit</button>
+            <button id="skip-btn" style="display: none;">skip</button>
+            <div id="score-display"></div>
+        </div>
+        <div id="end-game-message" class="hidden">
+            <h2>Game Over</h2>
+            <div id="final-score"></div>
+            <button id="restart-btn">play again</button>
+        </div>
+    </div>
+    <script src="gamejava.js"></script>
+</body>
+</html>
